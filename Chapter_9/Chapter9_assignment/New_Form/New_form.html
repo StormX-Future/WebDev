@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Chapter9</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>Chapter 9 form</h1>
+<form method="get">
+Name: <input type="text" name="name" id="name" maxlength="30" ><br><br>
+
+	<fieldset>
+	<legend> Please select your favorite week </legend>
+	<input type="radio" id="monday" value="monday" name ="week-choice"/>
+	<label for="monday">Monday</label>
+	<input type="radio" id="tuesday" value="tuesday" name ="week-choice"/>
+	<label for="tuesday">Tuesday</label>
+	<input type="radio" id="wensday" value="wensday" name ="week-choice"/>
+	<label for="wensday">Wensday</label>
+	<input type="radio" id="thursday" value="thursday" name ="week-choice"/>
+	<label for="thursday">Thursday</label>
+	<input type="radio" id="friday" value="friday" name ="week-choice"/>
+	<label for="friday">Friday</label>
+	</fieldset>
+<br>
+<div>
+<label for="social">Choose your favorite social media:</label>
+	<select name="social media" id="social">
+	<option value="instagram">Instagram</option>
+	<option value="facebook">Facebook</option>
+	<option value="twitter">Twitter</option>
+	<option value="myspace">Myspace</option>
+	</select>
+</div>
+<br>
+	<fieldset>
+	<legend> Shipping adress</legend>
+	Address1: <input type="text" name="address1" id="adress">
+	<br>
+	Address2:<input type="text" name="address2" id="adress">
+	<br>
+	City:<input type="text" name="city" id="city"> 
+	State:<input type="text" name="state" id="state"> 
+	Zip:<input type="text" name="zip" id="zip">
+	</fieldset>
+<br>
+Pword: <input type="text" id="password" maxlength="10" name="pword"/>
+<br>
+<button type="signup">
+<img src="signup.gif"/>
+</button>
+<div>
+	<input type="hidden" id="userid" name="userid" value="Me"/>
+</div>
+</form>
+</body>
+</html>
